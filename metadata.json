@@ -1,0 +1,6 @@
+{
+  "name": "Voice AI Studio",
+  "description": "Estúdio profissional de síntese vocal alimentado por Gemini 3.1 Flash TTS com paleta roxa elegante e controles acessíveis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

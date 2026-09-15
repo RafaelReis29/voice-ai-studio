@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  body {
+    background-color: #0F0B1A;
+    color: #F5F3FF;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    overflow-x: hidden;
+  }
+
+  /* Custom Purple Dark Scrollbars */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #181225;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #2E2545;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #7C3AED;
+  }
+
+  /* Accessible Focus Outline */
+  :focus-visible {
+    outline: 2px solid #A78BFA !important;
+    outline-offset: 2px !important;
+  }
+}
+
